@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>FC vs RM - Web Fighter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>⚽ FC Barcelona vs Real Madrid - Combat de Légendes ⚽</h1>
+    <div id="arena">
+        <div id="player1" class="player">Messi (100 PV)</div>
+        <div id="player2" class="player">Ronaldo (100 PV)</div>
+    </div>
+    <div id="controls">
+        <button onclick="attack('punch')">Coup de poing</button>
+        <button onclick="attack('kick')">Coup de pied</button>
+        <button onclick="attack('combo')">Combo</button>
+        <button onclick="attack('special')">Coup spécial</button>
+    </div>
+    <p id="log"></p>
+
+    <script src="js/game.js"></script>
+</body>
+</html>

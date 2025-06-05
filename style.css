@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+#arena {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+.player {
+    background-color: #222;
+    padding: 20px;
+    border: 2px solid white;
+    width: 150px;
+}
+#controls {
+    margin: 20px;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
